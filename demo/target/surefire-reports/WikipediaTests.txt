@@ -1,0 +1,84 @@
+-------------------------------------------------------------------------------
+Test set: WikipediaTests
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 0, Errors: 20, Skipped: 0, Time elapsed: 0.154 s <<< FAILURE! - in WikipediaTests
+testEditPage(WikipediaTests)  Time elapsed: 0.073 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: /workspaces/test/demo/caminho/do/chromedriver
+	at WikipediaTests.setUp(WikipediaTests.java:19)
+
+testEditPage(WikipediaTests)  Time elapsed: 0.074 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+	at WikipediaTests.tearDown(WikipediaTests.java:25)
+
+testPageNavigation(WikipediaTests)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: /workspaces/test/demo/caminho/do/chromedriver
+	at WikipediaTests.setUp(WikipediaTests.java:19)
+
+testPageNavigation(WikipediaTests)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+	at WikipediaTests.tearDown(WikipediaTests.java:25)
+
+testBasicSearch(WikipediaTests)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: /workspaces/test/demo/caminho/do/chromedriver
+	at WikipediaTests.setUp(WikipediaTests.java:19)
+
+testBasicSearch(WikipediaTests)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+	at WikipediaTests.tearDown(WikipediaTests.java:25)
+
+testDiscussionPageAccess(WikipediaTests)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: /workspaces/test/demo/caminho/do/chromedriver
+	at WikipediaTests.setUp(WikipediaTests.java:19)
+
+testDiscussionPageAccess(WikipediaTests)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+	at WikipediaTests.tearDown(WikipediaTests.java:25)
+
+testImageDisplay(WikipediaTests)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: /workspaces/test/demo/caminho/do/chromedriver
+	at WikipediaTests.setUp(WikipediaTests.java:19)
+
+testImageDisplay(WikipediaTests)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+	at WikipediaTests.tearDown(WikipediaTests.java:25)
+
+testRevisionHistory(WikipediaTests)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: /workspaces/test/demo/caminho/do/chromedriver
+	at WikipediaTests.setUp(WikipediaTests.java:19)
+
+testRevisionHistory(WikipediaTests)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+	at WikipediaTests.tearDown(WikipediaTests.java:25)
+
+testCategoryNavigation(WikipediaTests)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: /workspaces/test/demo/caminho/do/chromedriver
+	at WikipediaTests.setUp(WikipediaTests.java:19)
+
+testCategoryNavigation(WikipediaTests)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+	at WikipediaTests.tearDown(WikipediaTests.java:25)
+
+testExternalLinksValidity(WikipediaTests)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: /workspaces/test/demo/caminho/do/chromedriver
+	at WikipediaTests.setUp(WikipediaTests.java:19)
+
+testExternalLinksValidity(WikipediaTests)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+	at WikipediaTests.tearDown(WikipediaTests.java:25)
+
+testAdvancedSearchFunctionality(WikipediaTests)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: /workspaces/test/demo/caminho/do/chromedriver
+	at WikipediaTests.setUp(WikipediaTests.java:19)
+
+testAdvancedSearchFunctionality(WikipediaTests)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+	at WikipediaTests.tearDown(WikipediaTests.java:25)
+
+testSidebarFunctionality(WikipediaTests)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: /workspaces/test/demo/caminho/do/chromedriver
+	at WikipediaTests.setUp(WikipediaTests.java:19)
+
+testSidebarFunctionality(WikipediaTests)  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+	at WikipediaTests.tearDown(WikipediaTests.java:25)
+
